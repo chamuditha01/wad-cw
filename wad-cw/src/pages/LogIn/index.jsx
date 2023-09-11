@@ -10,6 +10,7 @@ const LogIn=()=>{
         <div class="log">
             
             <Navbar/>
+            <p style={{marginTop:'100px'}}>.</p>    
             <FormLogin/> 
             <p style={{marginTop:'160px'}}>.</p>    
             

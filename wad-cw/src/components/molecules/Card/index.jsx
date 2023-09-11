@@ -11,7 +11,7 @@ const Card=()=>{
   <div  class="col">
     <div style={{borderRadius:'30px'}} class="card">
       <img src={card11} style={{height: '19rem',borderTopWidth:'3px',borderTopStyle:'solid',borderTopColor:'	#000080',borderTopLeftRadius:'30px',borderTopRightRadius:'30px'}} class="card-img-top" alt="..."/>
-      <Card1 path={'/Dog'} title1={'Dog Products'} content1={'While the exact composition of dog food varies widely from one manufacturer to another, dog food generally is made up of meats, meat byproducts, cereals, grains, vitamins, and minerals'}/>
+      <Card1 path={'/Dog'} title1={'Dog Products'} content1={'While the exact composition of dog food varies widely from one manufacturer to another, dog food generally is made up of meats, meat byproducts, cereals, grains,,proteins vitamins, and minerals ... etc.'}/>
     </div>
   </div>
   <div  class="col">

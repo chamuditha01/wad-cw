@@ -13,7 +13,7 @@ const FormLogin = () => {
 
   return (
     <div>
-      <h1 style={{textAlign: 'center', margin: '100px'}}>Log In</h1>
+      <h1 style={{textAlign: 'center', marginBottom: '100px',marginTop: '70px'}}>Log In</h1>
       <center>
         <form
           style={{
@@ -77,7 +77,7 @@ const FormLogin = () => {
                 type="submit"
                 className="btn btn-primary"
               >
-                Sign in
+                Log In
               </button>
             </div>
           </center>

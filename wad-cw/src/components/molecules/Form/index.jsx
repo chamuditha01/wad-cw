@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import React, { useState } from "react";
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
-import { Carousel } from 'react-bootstrap'; 
+
 
 const Form1 = () => {
  const [passwordVisible, setPasswordVisible] = useState(false);

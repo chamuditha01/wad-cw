@@ -9,7 +9,7 @@ const SignIn=()=>{
         <div class="sign">
             <Navbar/>
             <Form1/> 
-            <p style={{marginTop:'0px'}}>.</p>        
+            <p style={{marginTop:'1px'}}>.</p>    
         </div>
        
     )

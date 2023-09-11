@@ -12,7 +12,7 @@ const Form1 = () => {
 
   return (
     <div>
-      <h1 style={{textAlign: 'center', marginTop: '100px'}}>Sign In</h1>
+      <h1 style={{textAlign: 'center', marginTop: '80px'}}>Sign In</h1>
       <center>
         <form
           style={{

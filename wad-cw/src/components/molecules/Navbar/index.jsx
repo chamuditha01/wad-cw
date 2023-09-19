@@ -46,7 +46,7 @@ const Navbar = ({ cart }) => {
                 </u>
             </ul>
             
-            <a href="/Notification">
+            <a href="/Noti">
               <button
                 style={{
                   width: "150px",

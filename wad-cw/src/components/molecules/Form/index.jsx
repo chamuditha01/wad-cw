@@ -159,7 +159,7 @@ const Form1 = () => {
           </div>
           <div className="col-md-4">
             <label style={{ color: '#000080' }} htmlFor="inputState" className="form-label">
-              State
+              Province
             </label>
             <select
               id="inputState"
@@ -168,10 +168,10 @@ const Form1 = () => {
               onChange={(e) => setFormData({ ...formData, state: e.target.value })}
             >
               <option selected>Choose...</option>
-              <option>Sri Lanka</option>
-              <option>India</option>
-              <option>USA</option>
-              <option>Pakistan</option>
+              <option>Southern</option>
+              <option>western</option>
+              <option>Sabaragamuwa</option>
+              <option>Eastern</option>
             </select>
           </div>
           <div className="col-md-2">

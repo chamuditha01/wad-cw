@@ -10,7 +10,7 @@ function Banner1() {
     <Carousel >
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./cat-5778777_1920.jpg')}  alt="First slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./cat-5778777_1920.jpg')}  alt="First slide" />
         <Carousel.Caption>
           
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Cat Accesories</h3> 
@@ -19,7 +19,7 @@ function Banner1() {
       </Carousel.Item>
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./pexels-snapwire-46024 (1).jpg')}  alt="Second slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./pexels-snapwire-46024 (1).jpg')}  alt="Second slide" />
         <Carousel.Caption>
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Cat Food</h3>
           <p id="p1">We have put together some exciting kitten accessories that make your cat's schedule more fun and keep maintenance easy.</p>
@@ -27,7 +27,7 @@ function Banner1() {
       </Carousel.Item>
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./pexels-zhang-kaiyv-7149465.jpg')}  alt="Third slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./pexels-zhang-kaiyv-7149465.jpg')}  alt="Third slide" />
         <Carousel.Caption>
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Cat Toys</h3>
           <p id="p1">

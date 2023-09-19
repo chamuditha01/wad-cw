@@ -13,15 +13,15 @@ const FormLogin = () => {
 
   return (
     <div>
-      <h1 style={{textAlign: 'center', marginBottom: '100px',marginTop: '70px'}}>Log In</h1>
+      <h1 style={{textAlign: 'center',marginTop: '80px'}}>Log In</h1>
       <center>
         <form
           style={{
-            width: '700px',
+            width:'400px',
             borderTopWidth: '5px',
             borderRadius: '10px',
             borderTopStyle: 'solid',
-            marginTop: '30px',
+            marginTop: '40px',
             backgroundColor: '#ADD8E6',
             borderTopColor: '#000080',
             borderBottom: '30px',
@@ -30,6 +30,8 @@ const FormLogin = () => {
             borderRight:'4px',
             borderLeftStyle:'solid',
             borderRightStyle:'solid',
+            marginBottom:'100px',
+            
           }}
           className="row g-3"
         >

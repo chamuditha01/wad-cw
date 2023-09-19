@@ -41,6 +41,7 @@ body, h1, h2, p, ul {
     border-top-style: solid;
     border-top-color: #000080;
     height: 360px;
+    width: 250px;
   }
   .buy{
     background-color: #000080;

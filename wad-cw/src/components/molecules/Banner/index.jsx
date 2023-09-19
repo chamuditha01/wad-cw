@@ -10,7 +10,7 @@ function Banner() {
     <Carousel >
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./pexels-kampus-production-8734426.jpg')}  alt="First slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./pexels-kampus-production-8734426.jpg')}  alt="First slide" />
         <Carousel.Caption>
           
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Dog Accsories</h3> 
@@ -19,7 +19,7 @@ function Banner() {
       </Carousel.Item>
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./pexels-víctor-panadeiros-1735057.jpg')}  alt="Second slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./pexels-víctor-panadeiros-1735057.jpg')}  alt="Second slide" />
         <Carousel.Caption>
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Cat Accesories</h3>
           <p id="p1">We have put together some exciting kitten accessories that make your cat's schedule more fun and keep maintenance easy.</p>
@@ -27,7 +27,7 @@ function Banner() {
       </Carousel.Item>
       <Carousel.Item>
       
-        <img style={{height: '500px',opacity:'0.9'}} src={require('./gary-bendig-WPmPsdX2ySw-unsplash.jpg')}  alt="Third slide" />
+        <img style={{height: '500px',opacity:'0.9',objectFit:'cover'}} src={require('./gary-bendig-WPmPsdX2ySw-unsplash.jpg')}  alt="Third slide" />
         <Carousel.Caption>
           <h3 style={{color: '#000080',textShadow: '2px 2px 4px white'}}>Bird Accesories</h3>
           <p id="p1">

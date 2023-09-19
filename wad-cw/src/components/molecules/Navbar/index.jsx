@@ -4,7 +4,7 @@ import SearchBar from "../../atoms/SearchBar";
 import Button from "../../atoms/Button";
 import React, { useState } from "react";
 import "./index.css";
-import img from "./263142.png";
+
 import ProfileDrop from "../../atoms/ProfileDrop";
 
 const Navbar = ({ cart }) => {

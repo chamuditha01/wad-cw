@@ -1,17 +1,17 @@
-/* Reset some default styles */
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
   }
   
-  /* Apply a background color and some basic styling to the body */
+  
   body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     padding: 20px;
   }
   
-  /* Style the header with a background color, center text, and some padding */
+  
   header {
     background-color: #333;
     color: white;
@@ -19,7 +19,7 @@ body, h1, h2, p, ul {
     padding: 10px;
   }
   
-  /* Style the main content area */
+ 
   main {
     display: flex;
     flex-wrap: wrap;
@@ -27,15 +27,30 @@ body, h1, h2, p, ul {
     margin-top: 20px;
   }
   
-  /* Style product items */
+
   .product {
-    background-color: rgb(230, 184, 211);
+    background-color: #ADD8E6;
     border: 1px solid #ddd;
     padding: 50px;
     margin: 50px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 500px;
+    border-top: 2px;
+    border-radius: 10px;
+    border-top-style: solid;
+    border-top-color: #000080;
+    height: 360px;
+    width: 250px;
+  }
+  .buy{
+    background-color: #000080;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 5px 2px;
+    cursor: pointer;
+    margin-top: 10px;
   }
   
   .product img {
@@ -45,7 +60,7 @@ body, h1, h2, p, ul {
     max-width: 150px;
     max-height: 150px;
     object-fit: cover;
-
+    width: 300px;
   }
   
   .product h2 {
@@ -58,7 +73,8 @@ body, h1, h2, p, ul {
   }
   
   .add-to-cart {
-    background-color: #333;
+    background-color: #000080;
+    width: 100px;
     color: white;
     border: none;
     padding: 5px 2px;
@@ -69,13 +85,15 @@ body, h1, h2, p, ul {
     background-color: #555;
   }
   
-  /* Style the shopping cart */
+
   aside {
-    background-color: rgb(230, 175, 208);
+    background-color: #ADD8E6;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 300px;
+    border-radius: 4px;
   }
+  
   
   #cart {
     list-style-type: none;
@@ -89,7 +107,7 @@ body, h1, h2, p, ul {
   }
   
   #checkout {
-    background-color: #a73838;
+    background-color: #000080;
     color: white;
     border: none;
     padding: 10px 20px;

@@ -11,7 +11,7 @@ const Navbar = ({ cart }) => {
   return (
     <div style={{}}>
       <nav
-        style={{ margin: "10px", background: "rgba(255, 0, 0, 0.5)" }} // Change background to rgba with alpha value
+        style={{ margin: "10px", background: "rgba(255, 0, 0, 0.5)" }} 
         id="d"
         className="navbar navbar-expand-lg navbar fixed-top bg-body-tertiary"
       >
@@ -46,7 +46,7 @@ const Navbar = ({ cart }) => {
                 </u>
             </ul>
             
-            <a href="/Notification">
+            <a href="/Noti">
               <button
                 style={{
                   width: "150px",

@@ -7,13 +7,14 @@ import Footer from '../../components/molecules/Footer';
 import Card from '../../components/molecules/Card';
 import TextImg from '../../components/molecules/TextImg';    
 import Alert from '../../components/molecules/RedisterAlert';
-
+import './index.css'
 
 
 const Home = () => {
     return (
-        <center><div class="home">
-            
+        <center>
+            <div class="body">
+           
             <Banner/>
             <Navbar/>
             <Alert/>

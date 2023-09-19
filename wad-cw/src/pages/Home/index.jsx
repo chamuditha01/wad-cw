@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <center>
             <div class="body">
-           
+           <body>
             <Banner/>
             <Navbar/>
             <Alert/>
@@ -23,7 +23,7 @@ const Home = () => {
             <MainCard/>
             <Footer/>
             <AboutLink/>
-            
+            </body>
         </div>
    </center> );
 }

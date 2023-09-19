@@ -1,7 +1,7 @@
 import React from 'react';
-
+import { Carousel} from 'react-bootstrap'; 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
-import { Carousel } from 'react-bootstrap'; 
+
 import './index.css';
 
 

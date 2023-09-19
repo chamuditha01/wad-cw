@@ -6,6 +6,8 @@ import img4 from './cat-playform-7.jpg'
 import img5 from './HeavenlyHerbal_16oz_45bbc740-fc6c-4729-9790-877b9c12746c.webp'
 import './card.css'; 
 
+import PopupForm from '../OrderForm';
+
 
 
 
@@ -39,6 +41,10 @@ function PetProductStore() {
   const handleCheckout = () => {
    
   };
+  
+ 
+
+  
 
   return (
     <div>
@@ -56,9 +62,8 @@ function PetProductStore() {
             <button className="add-to-cart" onClick={() => addToCart(product)}>
               Add to Cart
             </button><br/>
-            <button className="buy" >
-              Buy Now
-            </button>
+            
+            <PopupForm/>
             </div>
           </div>
           
@@ -83,5 +88,6 @@ function PetProductStore() {
     </div>
   );
 }
+
 
 export default PetProductStore;

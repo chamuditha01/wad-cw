@@ -5,6 +5,7 @@ import LogIn from "./pages/LogIn";
 import SignIn from "./pages/SignIn";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
+
 function App() {
   return (
     <div >
@@ -14,6 +15,7 @@ function App() {
           <Route path="/SignIn" element={<SignIn/>}/>
           <Route path="/LogIn" element={<LogIn/>}/>
           <Route path="/Cat" element={<CatProduct/>}/>
+          
         </Routes>
       </BrowserRouter>
     </div>

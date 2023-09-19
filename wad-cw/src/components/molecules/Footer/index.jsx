@@ -4,6 +4,9 @@ import "./index.css";
 
 
 const Footer = () => {
+
+  const phoneNumber = '0771731978'; 
+
   return (
     <div >
       <footer class="site-footer">
@@ -38,16 +41,18 @@ const Footer = () => {
               <h6>Links</h6>
               <ul class="footer-links">
                 <li>
-                  <a href="http://scanfcode.com/about/">About Us</a>
+                  <a href="/AboutUs">About Us</a>
                 </li>
                 <li>
-                  <a href="http://scanfcode.com/contact/">Contact Us</a>
+                  <a href="/ContactUs">Contact Us</a>
                 </li>
                 <li>
-                  <a href="http://scanfcode.com/privacy-policy/">
+                  <a href="/Policy">
                     Privacy Policy
                   </a>
                 </li>
+                <li>Dr.Pet</li>
+                <li> <a href={`tel:${phoneNumber}`}>{phoneNumber}</a></li>
               </ul>
             </div>
           </div>

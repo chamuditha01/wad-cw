@@ -1,7 +1,7 @@
 import Navbar from "../Navbar";
 import React, { useState } from "react";
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
-import { Carousel } from 'react-bootstrap'; 
+ 
 import FormItems from "../../atoms/FormItems";
 
 const FormLogin = () => {

@@ -1,0 +1,11 @@
+.citem{
+    height: 480px;
+    
+    ;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    border: 4px outset #773b77;
+    
+}

@@ -8,6 +8,7 @@ import Card from '../../components/molecules/Card';
 import TextImg from '../../components/molecules/TextImg';    
 import Alert from '../../components/molecules/RedisterAlert';
 import './index.css'
+import AutoRotatableCard from '../../components/molecules/rotate';
 
 
 const Home = () => {

@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import "./index.css";
 
 import ProfileDrop from "../../atoms/ProfileDrop";
+import AutoRotatableCard from "../rotate";
 
 const Navbar = ({ cart }) => {
   return (
@@ -19,6 +20,7 @@ const Navbar = ({ cart }) => {
           <a className="navbar-brand" href="/">
             <MyImage />
           </a>
+          
           <button
             className="navbar-toggler"
             type="button"
@@ -45,7 +47,7 @@ const Navbar = ({ cart }) => {
                 <NavItem id={"reg"} name={"Log In"} path={"/LogIn "} />
                 </u>
             </ul>
-            
+            <AutoRotatableCard/>
             <a href="/Noti">
               <button
                 style={{

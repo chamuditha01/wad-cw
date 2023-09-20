@@ -165,3 +165,13 @@
 p{
   color: #6c6d6e;
 }
+.footer {
+  opacity: 0;
+  transform: translateY(200px);
+  transition: opacity 0.5s, transform 0.6s;
+}
+
+.footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

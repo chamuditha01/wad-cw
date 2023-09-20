@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "../../components/molecules/Navbar";
 import Banner from '../../components/molecules/Banner';
 import MainCard from '../../components/molecules/MainCard';
-import AboutLink from '../../components/molecules/AboutLink';
+
 import Footer from '../../components/molecules/Footer';
 import Card from '../../components/molecules/Card';
 import TextImg from '../../components/molecules/TextImg';    
@@ -22,7 +22,7 @@ const Home = () => {
             <TextImg/>
             <MainCard/>
             <Footer/>
-            <AboutLink/>
+            
             </body>
         </div>
    </center> );

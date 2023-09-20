@@ -1,16 +1,23 @@
+
+
+
+import React from 'react';
 import MyImage1 from "../../atoms/FaceImg";
 import Category from "../../atoms/FooterCateg";
-import "./index.css";
-
+import { useInView } from 'react-intersection-observer';
+import './index.css';
 
 const Footer = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, 
+  });
 
-  const phoneNumber = '0771731978'; 
+  const phoneNumber = '0771731978';
 
   return (
-    <div >
-      <footer class="site-footer">
-        <div class="container">
+    <div ref={ref} className={`footer ${inView ? 'visible' : ''}`}>
+      <footer className="site-footer">
+      <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
@@ -76,4 +83,5 @@ const Footer = () => {
     </div>
   );
 };
+
 export default Footer;

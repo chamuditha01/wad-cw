@@ -9,7 +9,7 @@
 .main-card {
     opacity: 0;
     transform: translateY(200px);
-    transition: opacity 0.5s, transform 0.5s;
+    transition: opacity 0.5s, transform 0.6s;
   }
   
   .main-card.visible {

@@ -8,18 +8,18 @@
   }
   
   .auto-rotatable-card {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background: conic-gradient(
       #000080 0% 25%,
-      #0aacf7 25% 50%,
-      #78e7e9 50% 75%,
-      #b8f2fd 75% 100%
+      #ADD8E6 25% 50%,
+      #000080 50% 75%,
+      #ADD8E6 75% 100%
     );
     color: rgb(0, 0, 0);
     border-radius: 100%;
     margin-right: 10px;
-    border-color: rgb(255, 255, 255);
+    border-color: #ADD8E6;
     border-width: 2px;
     border-style: solid;
     display: flex;

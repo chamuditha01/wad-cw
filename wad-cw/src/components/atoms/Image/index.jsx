@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './images.jpeg'; // Import the image
+import Image from './images.jpeg'; 
 import './index.css';
 
 const MyImage = () => {
